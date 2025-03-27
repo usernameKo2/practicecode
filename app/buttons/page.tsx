@@ -5,9 +5,9 @@ const ButtonsPage = () => {
         <div className="p-4 space-y-4 flex flex-col max-w-[150px]">
             <Button variant="default">Primary</Button>
             <Button variant="outline">Primary Outline</Button>
-            <Button>Secondary</Button>
-            <Button>Secondary Outline</Button>
-            <Button>Danger</Button>
+            <Button variant="ghost">Secondary</Button>
+            <Button variant="link">Secondary Outline</Button>
+            <Button variant="destructive">Danger</Button>
         </div>
     )
 };
